@@ -14,6 +14,11 @@
 		0461603128AF9AD200320C67 /* SignlePageTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0461602F28AF9AD200320C67 /* SignlePageTableView.xcdatamodeld */; };
 		0461603328AF9AD500320C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461603228AF9AD500320C67 /* Assets.xcassets */; };
 		0461603628AF9AD500320C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461603428AF9AD500320C67 /* LaunchScreen.storyboard */; };
+		0461603F28AF9CB600320C67 /* SongLIstTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461603D28AF9CB600320C67 /* SongLIstTVCell.swift */; };
+		0461604028AF9CB600320C67 /* SongLIstTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461603E28AF9CB600320C67 /* SongLIstTVCell.xib */; };
+		047997FB28B223A3008CF765 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047997FA28B223A3008CF765 /* SongModel.swift */; };
+		047997FD28B22D30008CF765 /* CoreDataFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047997FC28B22D2F008CF765 /* CoreDataFunction.swift */; };
+		047997FF28B23116008CF765 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047997FE28B23116008CF765 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		0461603228AF9AD500320C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0461603528AF9AD500320C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0461603728AF9AD500320C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0461603D28AF9CB600320C67 /* SongLIstTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLIstTVCell.swift; sourceTree = "<group>"; };
+		0461603E28AF9CB600320C67 /* SongLIstTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongLIstTVCell.xib; sourceTree = "<group>"; };
+		047997FA28B223A3008CF765 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		047997FC28B22D2F008CF765 /* CoreDataFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFunction.swift; sourceTree = "<group>"; };
+		047997FE28B23116008CF765 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +71,16 @@
 				0461602628AF9AD200320C67 /* AppDelegate.swift */,
 				0461602828AF9AD200320C67 /* SceneDelegate.swift */,
 				0461602A28AF9AD200320C67 /* ViewController.swift */,
+				047997FC28B22D2F008CF765 /* CoreDataFunction.swift */,
 				0461602C28AF9AD200320C67 /* Main.storyboard */,
 				0461603228AF9AD500320C67 /* Assets.xcassets */,
 				0461603428AF9AD500320C67 /* LaunchScreen.storyboard */,
 				0461603728AF9AD500320C67 /* Info.plist */,
 				0461602F28AF9AD200320C67 /* SignlePageTableView.xcdatamodeld */,
+				0461603D28AF9CB600320C67 /* SongLIstTVCell.swift */,
+				0461603E28AF9CB600320C67 /* SongLIstTVCell.xib */,
+				047997FA28B223A3008CF765 /* SongModel.swift */,
+				047997FE28B23116008CF765 /* Extension.swift */,
 			);
 			path = SignlePageTableView;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0461604028AF9CB600320C67 /* SongLIstTVCell.xib in Resources */,
 				0461603628AF9AD500320C67 /* LaunchScreen.storyboard in Resources */,
 				0461603328AF9AD500320C67 /* Assets.xcassets in Resources */,
 				0461602E28AF9AD200320C67 /* Main.storyboard in Resources */,
@@ -141,10 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0461603F28AF9CB600320C67 /* SongLIstTVCell.swift in Sources */,
 				0461603128AF9AD200320C67 /* SignlePageTableView.xcdatamodeld in Sources */,
+				047997FB28B223A3008CF765 /* SongModel.swift in Sources */,
+				047997FD28B22D30008CF765 /* CoreDataFunction.swift in Sources */,
 				0461602B28AF9AD200320C67 /* ViewController.swift in Sources */,
 				0461602728AF9AD200320C67 /* AppDelegate.swift in Sources */,
 				0461602928AF9AD200320C67 /* SceneDelegate.swift in Sources */,
+				047997FF28B23116008CF765 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
